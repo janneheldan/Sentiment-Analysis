@@ -12,7 +12,7 @@ git clone git@github.com:janneheldan/Sentiment-Analysis.git
 The backend is a Python application. To run it locally, follow these steps:
 
 ```bash
-cd backend
+cd api
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
