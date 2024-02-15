@@ -13,7 +13,7 @@ The backend is a Python application. To run it locally, follow these steps:
 
 ```bash
 cd backend
-pip install -r requirements.txt.py
+pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
