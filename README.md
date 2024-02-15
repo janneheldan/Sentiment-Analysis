@@ -3,6 +3,10 @@
 
 This project is composed of a backend and a frontend. Follow the instructions below to run each part locally.
 
+```bash
+git clone git@github.com:janneheldan/Sentiment-Analysis.git
+```
+
 ## Backend
 
 The backend is a Python application. To run it locally, follow these steps:
