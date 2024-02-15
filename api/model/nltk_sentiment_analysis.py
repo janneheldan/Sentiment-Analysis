@@ -3,8 +3,6 @@ from nltk import tokenize
 
 sia = SentimentIntensityAnalyzer()
 
-print(sia.polarity_scores("I love you"))
-
 def sentiment_analyzer_scores(text):
     score = sia.polarity_scores(text)
     if score['compound'] >= 0.05:
